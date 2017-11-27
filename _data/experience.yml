@@ -2,29 +2,42 @@
   position: Lead Data Engineer
   duration: October, 2016 &mdash; Present
   summary: "
-    My role as a data engineer at Wonderbly cuts across most aspects of data engineering as we are a fairly small team. I maintain both the Amazon Redshift clusters and the tooling for the rest of the team so they can run run remote tasks using Amazon ECS/Docker. Because we are a small team we want to make it easy for anyone to contribute code so I am in the process of creating an SQL test runner so our continuous integration server can report back in Pull Requests if there is broken functionality due to changes made. Our current architecture is a twice a day ETL this allows us to deliver reporting to the whole business on how the previous day from an marketing channel/ad perspective to how much we spent producing books. Our second ETL runs mid morning and fills in missing data due to timezone or Google Analytics data still processing.
-    <br />
-      Day to day I work on feature development which would normally involve analysing a problem and presenting back to the team using data notebooks highlighting the problem with a possible solution. After the analysis is complete I would create a working specification and implement a solution.
-      Sown examples of this are the multi touch attribution models we do at Wonderbly, I have analysed existing models after receiving feedback from marketing analysts and also implementing time decay models to show the behaviours of repeat purchase customers.
-      Another large analysis piece I have lead is validating the finance figures our system produces. This was followed by remodelling how some components work and adding new components such as showing profit and loss for the unit addons we sell and improving the accuracy of our shipping/production cost reporting. This work has allowed me to now expose key figures like net revenue and gross profit at an Ad level which means our marketing team can now analysis the profitability of ads at unit level.
-    <br />
-    Our team has had a Data scientist join and this has lead to us beginning to do more analysis using Machine Learning. I have been working with them to create a framework for managing experiments, once it is finished we will be able to manage datasets so we have a reproducible way to run experiments have a reproducible way to run experiments have a reproducible way to run experiments
+    The Stack:
+      <br / >
+      - Luigi Scheduler
+      <br / >
+      - AWS: Redshift, ECS, S3, EC2
+      <br / >
+      - BigQuery
+      <br / >
+      - Python & SQL
+    <br / >
+    <br / >
+    Key achievements:
+      <br / >
+      - Improved ETL pipeline success rate from 50% to 98%.
+      <br / >
+      - Lead a validation project to improve the accuracy of our finance reporting. This resulted in the marketing team now having accurate breakdowns of profitability to the Ad level.
+      <br / >
+      - Implemented a unit testing framework for developing SQL in a test driven cycle. This has speed up development and reduced the risk of breaking changes.
 "
 
 - company: Wonderbly
-  position: Tech Lead
-  duration:  Jul, 2017 &mdash; Oct, 2017
-  summary: "My role was to manage the developers within the happiness team. The overall mandate of the team was too create amazing tools for our customers to manage their orders as well as creating intuitive tools for our customer service team to better help customers.
-<br / >
-<br / >
-  Management: <br / >
-    - Sprint planning.  <br / >
-    - Working with product manager to curate road map based on customer interactions with the site.  <br / >
-    - Team 1-1's.  <br / >
-<br / >
-  Development: <br / >
-    - Working with Javascript since 2009, currently working with React.  <br / >
-    - Working with Ruby since 2010.  <br / >
-    - Learning Elixir.  <br / >
+  position: Tech Lead, Post Purchase Team
+  duration:  Jul, 2015 &mdash; Oct, 2016
+  summary: "
+    The Stack:
+      <br / >
+      - Ruby on Rails Backend
+      <br / >
+      - React / Node Frontend
+    <br / >
+    <br / >
+    Key achievements:
+      <br / >
+      - A project manager and myself started the team to tackle issues the business were seeing with customer post purchase behaviours.
+      <br / >
+      - Coached product manager and other developers in team on running Agile sprints.
+      <br / >
+      - Curated internal meetup for developers to share ideas and work they wanted to share. The reason I started the metope was to solve a problem I was seeing with solo developers feeling isolated.
 "
-

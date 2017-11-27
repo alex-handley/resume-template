@@ -1,0 +1,22 @@
+// extensions
+// ---------------------------------------/
+.skills.rating {
+  display: inline-flex;
+  margin-left: 5px;
+}
+
+.content-section .skill.resume-item {
+  margin-bottom: 0rem;
+}
+
+.page-header .avatar {
+  width: 240px;
+  max-width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  z-index: -100;
+}
