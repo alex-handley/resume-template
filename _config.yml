@@ -21,12 +21,12 @@ resume_header_intro: "
   Full-stack dev turned specialist data engineer.
   I’ve knocked out mobile apps, lead migrations of 90’s Perl applications, and tackled some machine learning.
   <br />
-  I am really enjoying the problems I’m solving in Data currently, wherever my next role is, I’d want to expand further on my experience in data.
+  I am really enjoying the problems I’m solving in Data currently, wherever my next role is I'd like to continue it in data.
   <br />
   <br />
-    Loves: Python, Halloumi, Problem Solving
+  <b>Loves:</b> Python, Halloumi, Problem Solving
   <br />
-    Hates: Broken ETLs, undercooked Halloumi
+  <b>Hates:</b> Broken ETLs, undercooked Halloumi
   <br />
   </p>
 "
@@ -55,9 +55,9 @@ resume_social_links:
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/alex-handley-8702b317/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
+  resume_website_url:           "https://alexhandley.co.uk/"
 # resume_print_social_links:      true
 
 # Design settings
