@@ -1,6 +1,24 @@
+- company: Memrise
+  position: Lead Data Engineer
+  duration: February, 2018 &mdash; Present
+  summary: "
+    The Stack:
+      <br / >
+      - Airflow Scheduler
+      <br / >
+      - AWS: Redshift, ECS, S3, EC2, EMR (Spark) 
+      <br / >
+      - Python & SQL  
+    <br / >
+    <br / >  
+    First full-time data engineer to join the company, currently productionizing the pipeline and helping to build a data culture at Memrise. 
+    <br / >  
+    Key projects are around data consistency and GDPR. 
+"
+
 - company: Wonderbly
   position: Lead Data Engineer
-  duration: October, 2016 &mdash; Present
+  duration: October, 2016 &mdash; January 2018
   summary: "
     The Stack:
       <br / >
