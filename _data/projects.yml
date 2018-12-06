@@ -8,7 +8,7 @@
   role: Lead Data Engineer
   duration: 2017 &mdash; 2018
   description: Wonderbly like the majority of tech startups drives sales through online marketing so making marketing spend performant was an early priority.<br />This was done by tracking each interaction a customer had with us and then with this data building attribution models to surface marketing performance. An example of an attribution model is last click attribution where the last interaction takes all credit for a conversion.<br /><br />The attribution models were live when I joined the project but there was a mixture of software bugs and behaviour not being considered by the models. Once I had resolved the software issues, the next step was to refactor and document the processes to make this part of the data pipeline more accessible for future contributors.<br />Now that attribution was functioning correctly  I paired up with a marketing analyst to find shortcomings of the model, make improvements and finally monitor the changes to see if they were successful.<br /><br />
-  The final part of the project involved implementing a new model using the Time Decay technique, with the aim of better understanding the behaviours of repeat purchase customers.
+    The final part of the project involved implementing a new model using the Time Decay technique, with the aim of better understanding the behaviours of repeat purchase customers.
 
 - project: King & Mcgaw (formally EasyArt)
   role: Lead Developer and coach
