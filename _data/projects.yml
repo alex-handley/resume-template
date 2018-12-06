@@ -1,16 +1,18 @@
-- project: Multi touch marketing attribution modelling
-  role: Lead Data Engineer
-  # duration: 2017 &mdash; Present
-  # url: "https://www.meetup.com/London-Algorithms"
-  description: At Wonderbly we track each interaction a customer has with us and then apply different models to the interactions. For example last click attribution where the last interaction takes all credit for a conversion.
-    <br />
-    The project involved analysing and improving existing models after receiving feedback from marketing analysts about incorrect behaviour they were seeing. The project also involved implementing a new model using the Time Decay technique to show the behaviours of repeat purchase customers.
-
 - project: London Algorithms
   role: Organiser
-  duration: 2017 &mdash; Present
+  duration: 2017 &mdash; 2018
   url: "https://www.meetup.com/London-Algorithms"
   description: I organise a meetup for around 30 people to learn how algorithms work. Each session we select an algorithm, watch a short presentation and then start hacking on some challenges. My main aim is making the group approachable to newbies and vets alike.
+ 
+ - project: Multi touch marketing attribution modelling
+  role: Lead Data Engineer
+  duration: 2017 &mdash; 2018
+  description: Wonderbly like the majority of tech startups drives sales through online marketing so making marketing spend performant was an early priority. 
+This was done by tracking each interaction a customer had with us and then with this data building attribution models to surface marketing performance.
+ An example of an attribution model is last click attribution where the last interaction takes all credit for a conversion.<br /><br />
+The attribution models were live when I joined the project but there was a mixture of software bugs and behaviour not being considered by the models. Once I had resolved the software issues, the next step was to refactor and document the processes to make this part of the data pipeline more accessible for future contributors.
+Now that attribution was functioning correctly  I paired up with a marketing analyst to find shortcomings of the model, make improvements and finally monitor the changes to see if they were successful.<br /><br />
+The final part of the project involved implementing a new model using the Time Decay technique, with the aim of better understanding the behaviours of repeat purchase customers.
 
 - project: King & Mcgaw (formally EasyArt)
   role: Lead Developer and coach
@@ -28,7 +30,5 @@
 - project: Serious Fox
   role: Co-founder
   duration: 2009 &mdash; 2015
-  description: During my last year at university I teamed up with a friend and started offering Apple server installation and support. The business grew and after I left university we carried it on fulltime at first from a sofa in our flat.
-    <br />
-    We quickly moved from hardware to web and Josh convinced me to work in a language called Ruby. Over the next 6 years we grew the company to 5 people doing work for one person outfits wanting to make a quick MVP for a pitch to companies like Cisco, Tech City and Tottenham Hotspur who worked with us on 6 month long projects.
-
+  description: During my last year at university, I teamed up with a friend and started offering Apple server installation and support. The business grew and after I finished university and we both decided to see how far we could go with the business in 6 months. <br />
+We quickly decided to move from hardware to web development and Josh showed me a language called Ruby which was getting some popularity. Over the next 6 years, we grew the company to 5 people doing work for one person outfits wanting to make a quick MVP to companies like Tech City and Tottenham Hotspur who worked with us on longer projects.
