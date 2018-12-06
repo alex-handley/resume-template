@@ -1,14 +1,20 @@
-- project: London Algorithms
-  role: Organiser
-  duration: 2017 &mdash; 2018
-  url: "https://www.meetup.com/London-Algorithms"
-  description: I organise a meetup for around 30 people to learn how algorithms work. Each session we select an algorithm, watch a short presentation and then start hacking on some challenges. My main aim is making the group approachable to newbies and vets alike.
- 
 - project: Multi touch marketing attribution modelling
   role: Lead Data Engineer
   duration: 2017 &mdash; 2018
   description: Wonderbly like the majority of tech startups drives sales through online marketing so making marketing spend performant was an early priority.<br />This was done by tracking each interaction a customer had with us and then with this data building attribution models to surface marketing performance.<br /> An example of an attribution model is last click attribution where the last interaction takes all credit for a conversion.<br /><br />The attribution models were live when I joined the project but there was a mixture of software bugs and behaviour not being considered by the models. Once I had resolved the software issues, the next step was to refactor and document the processes to make this part of the data pipeline more accessible for future contributors.<br />Now that attribution was functioning correctly  I paired up with a marketing analyst to find shortcomings of the model, make improvements and finally monitor the changes to see if they were successful.<br /><br />
     The final part of the project involved implementing a new model using the Time Decay technique, with the aim of better understanding the behaviours of repeat purchase customers.
+
+- project: Large Ruby on Rails application Refactor
+  role: Contractor
+  duration: 2017 &mdash; 2018
+  description: The project was to overhaul a Rails application which had been initially built on Rails 2.x and was currently running one of the initial 3.0 versions this meant a lot of patterns and syntax didn't follow current best practices. The application had nearly no unit or end to end tests which would make an update to Rails 5 likely to introduce bugs to what was a very stable application.<br/><br/My approach was to create a testing plan for the major functions of the application so that I knew what the key features were and their expected outputs. With this plan I created high-level black box specs, I used this approach so that I didn't need to make any changes to the codebase to allow for the specs to work. <br/><br/>Finally, once I had all of these tests I could start updating the application one major version at a time while rereading the security notifications for that version and checking if there was any vulnerable code.
+    <br/><br/>After 4 major version updates and many fixes I had the application running on the latest Rails version at this point there was a round of manual testing and then finally we shipped. To this date, there have been no new bugs reported which is marvellous.
+
+- project: London Algorithms
+  role: Organiser
+  duration: 2017 &mdash; 2018
+  url: "https://www.meetup.com/London-Algorithms"
+  description: I organise a meetup for around 30 people to learn how algorithms work. Each session we select an algorithm, watch a short presentation and then start hacking on some challenges. My main aim is making the group approachable to newbies and vets alike. 
 
 - project: King & Mcgaw (formally EasyArt)
   role: Lead Developer and coach
