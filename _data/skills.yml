@@ -6,20 +6,23 @@
 - skill: Data Ops
   rating: 3
 
-- skill: SQL (Sun certification in data model at 14 years old)
+- skill: SQL (Since secondary school!)
   rating: 5
 
+- skill: Redshift design and management
+  rating: 5
+  
 - skill: Ruby / Ruby on Rails (Since 2011)
-  rating: 5
+  rating: 4
 
-- skill: Javascript (Since 2009)
-  rating: 5
+- skill: Javascript (Since 2009 but not in the 9 months)
+  rating: 3
 
 - skill: Machine Learning
   rating: 2
 
 - skill: Python
-  rating: 4
+  rating: 5
 
 - skill: Planning/Management
   rating: 4
