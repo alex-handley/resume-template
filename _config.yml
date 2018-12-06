@@ -18,15 +18,7 @@ resume_contact_address:         ""
 resume_header_contact_info: ""
 resume_header_intro: "
   <p>
-  Full-stack dev turned specialist data engineer.
-  I’ve knocked out mobile apps, lead migrations of 90’s Perl applications, and tackled some machine learning.
-  <br />
-  I am really enjoying the problems I’m solving in Data currently, wherever my next role is I'd like to continue it in data.
-  <br />
-  <br />
-  <b>Loves:</b> Python, Halloumi, Problem Solving
-  <br />
-  <b>Hates:</b> Broken ETLs, undercooked Halloumi
+    My titles have varied from Full-stack developer to most recently as a data engineer. But at the heart of it, I am an engineer who loves solving problems which have a human element. That could be a customer who is struggling to buy our products due to a bug or a CRM team who would love to segment customers better using the business's customer data.
   <br />
   </p>
 "
