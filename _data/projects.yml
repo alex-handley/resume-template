@@ -4,7 +4,7 @@
   url: "https://www.meetup.com/London-Algorithms"
   description: I organise a meetup for around 30 people to learn how algorithms work. Each session we select an algorithm, watch a short presentation and then start hacking on some challenges. My main aim is making the group approachable to newbies and vets alike.
  
- - project: Multi touch marketing attribution modelling
+- project: Multi touch marketing attribution modelling
   role: Lead Data Engineer
   duration: 2017 &mdash; 2018
   description: Wonderbly like the majority of tech startups drives sales through online marketing so making marketing spend performant was an early priority. 
