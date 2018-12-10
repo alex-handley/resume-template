@@ -23,8 +23,10 @@
     <br />
     Along the way I paired with the whole team to get them up to speed on Ruby and working in Agile Sprints.
     <br />
+    <br />
     The regional sites logic was duplicated across all of the site which made maintenance hard.
     The solution was to create slim Rails apps for each of the websites and then create a SOA (Service Oriented Architecture) to allow the art catalogue to be shared by these apps. We made it super easy to spin up these sites by gemifying the model layer of the app so the consuming application developer could use an ActiveRecord like API to query the catalogue.
+    <br />
     <br />
     Due to the number of items they sold we elected to use ElasticSearch to create a faceted search index which allowed customers to search by facets like primary colours or size.
 
