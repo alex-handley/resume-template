@@ -1,20 +1,26 @@
 - company: Memrise
-  position: Lead Data Engineer
-  duration: February, 2018 &mdash; Present
+  position: Senior Data Engineer
+  duration: February, 2018 &mdash; November, 2018
   summary: "
     The Stack:
       <br / >
-      - Airflow Scheduler
+      - Airflow Scheduler with AWS Redshift and Spectrum
       <br / >
-      - AWS: Redshift, ECS, S3, EC2, EMR (Spark) 
+      - Provisioning with Kubernetes
       <br / >
-      - Python & SQL  
+      - Python, SQL, Parquet files
     <br / >
     <br / >  
-    First full-time data engineer to join the company, currently productionizing the pipeline and helping to build a data culture at Memrise. 
+    I joined Memrise as the first full-time data engineer to help start forming a data team to support the business.
+    <br / >
+    My projects included:
+    <br / > 
+    - As I joined a few months before GDPR came into force, my first project was to begin educating the business about GDPR so that I could begin to take PII (Personal Identifiable Information) out of the tool being used for general data consumption. 
     <br / >  
-    Key projects are around data consistency and GDPR. 
-"
+    - The data team grew quickly which resulted in a ratio to 1 data engineer to 7 data scientists/analysts. With this ratio, I made it a priority to make it easy and safe for the team to commit code to the pipeline. I achieved this by enforced using pull requests that required a review and introduced a staging server to test features on. To improve development I made it easy to set up the pipeline locally and added linting as well as some tools to create automated tests with a CI server. 
+    <br / >  
+    - Pairing with the CRM team to integrate Braze (CRM platform) with the data pipeline. This included modelling customer data for use on the CRM platform and then maintaining a sync history between the two systems as there were high costs associated with syncing data. The final piece of the project was to extract data from Braze so that we could integrate this data with our internal reporting.
+  "
 
 - company: Wonderbly
   position: Lead Data Engineer
