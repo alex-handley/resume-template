@@ -1,5 +1,8 @@
 # Skills
 
+- skill: Python
+  rating: 5
+
 - skill: Data Modeling
   rating: 5
 
@@ -11,7 +14,7 @@
 
 - skill: Redshift Design and Management
   rating: 5
-  
+
 - skill: Ruby / Ruby on Rails (Since 2011)
   rating: 4
 
@@ -19,10 +22,7 @@
   rating: 3
 
 - skill: Machine Learning
-  rating: 2
-
-- skill: Python
-  rating: 5
+  rating: 1
 
 - skill: Planning/Management
   rating: 4

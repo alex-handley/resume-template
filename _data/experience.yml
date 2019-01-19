@@ -10,19 +10,17 @@
       <br / >
       - Python, SQL, Parquet files
     <br / >
-    <br / >  
-    I joined Memrise as the first full-time data engineer to help start forming a data team to support the business.
+    <br / >
+    Key achievements:
+    <br / >
+    - I joined Memrise as the first dedicated data engineer to support forming a data team. Like most data teams in 2018, the first focus was GDPR as it was coming into force within four months. My approach to this was to educate the company on what this meant for how they handled and used data. Once I had the stakeholders onboard, I began to reshape how data was consumed, stored and used within the company.
     <br / >
     <br / >
-    My projects included:
-    <br / > 
-    - As I joined a few months before GDPR came into force, my first project was to begin educating the business about GDPR so that I could begin to take PII (Personal Identifiable Information) out of the tool being used for general data consumption. 
-    <br / >  
-    <br / > 
-    - The data team grew quickly which resulted in a ratio to 1 data engineer to 7 data scientists/analysts. With this ratio, I made it a priority to make it easy and safe for the team to commit code to the pipeline. I achieved this by enforced using pull requests that required a review and introduced a staging server to test features on. To improve development I made it easy to set up the pipeline locally and added linting as well as some tools to create automated tests with a CI server. 
-    <br / >  
-    <br / > 
-    - Pairing with the CRM team to integrate Braze (CRM platform) with the data pipeline. This included modelling customer data for use on the CRM platform and then maintaining a sync history between the two systems as there were high costs associated with syncing data. The final piece of the project was to extract data from Braze so that we could integrate this data with our internal reporting.
+    - The data team grew quickly which resulted in a ratio of one data engineer to seven data scientists/analysts. With this ratio, I made it a priority to make it easy and safe for the team to commit code to the Airflow repository. This was accomplished by enforcing using pull requests with integrated code linting which required a review. To help reduce the number of bugs introduced I deployed a staging server so features could be tested on an environment similar to production before going live.<br />
+    Once the development process was working I made it easy to set up the Airflow application locally and added a framework to create automated tests end to end tests with the CI server.
+    <br / >
+    <br / >
+    - Memrise were building a CRM (Customer Relationship management) team and as part of this I was brought in to help evaluate and then integrate a CRM application. See details below in the projects section.
   "
 
 - company: Wonderbly
@@ -44,10 +42,10 @@
       <br / >
       - Improved ETL pipeline success rate from 50% to 98%.
       <br / >
-      <br / > 
+      <br / >
       - Lead a validation project to improve the accuracy of our finance reporting. This resulted in the marketing team now having accurate breakdowns of profitability to the Ad level.
       <br / >
-      <br / > 
+      <br / >
       - Implemented a unit testing framework for developing SQL in a test driven cycle. This has speed up development and reduced the risk of breaking changes.
 "
 

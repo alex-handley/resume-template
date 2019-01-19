@@ -1,5 +1,14 @@
+- project: CRM integration
+  role: Memrise, Data Engineer
+  duration: 2018 &mdash; 2018
+  description: "Memrise were building a CRM (Customer Relationship management) team as part of this I was brought in to help evaluate and then integrate a CRM application. <br /><br />
+After working with the CRM team to evaluate their needs I created a customer model using our existing user base, the objective of this model was firstly to surface key attributes and metrics that were needed within the CRM. Secondly, the CRM team didn't want to import the whole user base as this would include a large number of stale customers who would unlikely open emails, which would affect the email reputation building required when launching a new CRM.  <br / >
+Another layer I rolled into the model was to use email bounce/failure logs from our transactional system to mark users who would likely fail to receive or interaction with our emails.<br /><br />
+Now that we had a functional model the next step was to create a system to maintain a sync history between the data pipeline and the CRM. The reason this was important is that the Braze service contract was billed based on the updates we sent to them so if we sent the same update twice we would be billed twice! </br>
+The solution I created needed to fulfil the above requirements but at the same time not require a lot of maintenance or introduce a lot of new technologies as I was still a one person team. The solution that was decided upon used a technique in SQL to create a diff of the last synced table and the most recent version of the model. SQL was chosen here as the equivalent code to diff in Python would have not been as performant.
+"
 - project: Multi touch marketing attribution modelling
-  role: Lead Data Engineer
+  role: Wonderbly, Lead Data Engineer
   duration: 2017 &mdash; 2018
   description: Wonderbly like the majority of tech startups drives sales through online marketing so making marketing spend performant was an early priority.<br />This was done by tracking each interaction a customer had with us and then with this data building attribution models to surface marketing performance.<br /> An example of an attribution model is last click attribution where the last interaction takes all credit for a conversion.<br /><br />The attribution models were live when I joined the project but there was a mixture of software bugs and behaviour not being considered by the models. Once I had resolved the software issues, the next step was to refactor and document the processes to make this part of the data pipeline more accessible for future contributors.<br />Now that attribution was functioning correctly  I paired up with a marketing analyst to find shortcomings of the model, make improvements and finally monitor the changes to see if they were successful.<br /><br />
     The final part of the project involved implementing a new model using the Time Decay technique, with the aim of better understanding the behaviours of repeat purchase customers.
@@ -13,7 +22,7 @@
   role: Organiser
   duration: 2017 &mdash; 2018
   url: "https://www.meetup.com/London-Algorithms"
-  description: I organise a meetup for around 30 people to learn how algorithms work. Each session we select an algorithm, watch a short presentation and then start hacking on some challenges. My main aim is making the group approachable to newbies and vets alike. 
+  description: I organise a meetup for around 30 people to learn how algorithms work. Each session we select an algorithm, watch a short presentation and then start hacking on some challenges. My main aim is making the group approachable to newbies and vets alike.
 
 - project: King & Mcgaw (formally EasyArt)
   role: Lead Developer and coach
